@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+
 import com.example.a004.bean.UserInfo;
 
 import java.util.ArrayList;
@@ -22,7 +23,6 @@ public class UserDBHelper extends SQLiteOpenHelper {
     private UserDBHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
-
 
     private UserDBHelper(Context context, int version) {
         super(context, DB_NAME, null, version);
