@@ -12,6 +12,7 @@
         android:id="@+id/iv_thumb"
         android:layout_width="0dp"
         android:layout_height="85dp"
+        android:dividerHeight="20dp"
         android:layout_weight="2"
         android:scaleType="fitCenter" />
 

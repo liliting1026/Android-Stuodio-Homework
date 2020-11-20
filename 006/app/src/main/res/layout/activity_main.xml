@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:dividerHeight="20dp"
     tools:context=".MainActivity">
 
     <include
@@ -13,6 +14,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:dividerHeight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,6 +24,7 @@
             android:id="@+id/ll_channel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:dividerHeight="20dp"
             android:orientation="vertical"
             android:padding="5dp" />
     </ScrollView>
