@@ -5,8 +5,8 @@
     android:background="@color/white"
     android:descendantFocusability="blocksDescendants"
     android:orientation="horizontal"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp">
+    android:paddingVertical="20dp"
+    android:paddingRight="10dp">
 
     <ImageView
         android:id="@+id/iv_thumb"
@@ -18,7 +18,7 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="3"
         android:orientation="vertical">
 
